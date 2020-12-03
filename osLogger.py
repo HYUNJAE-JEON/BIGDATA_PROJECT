@@ -2,7 +2,7 @@ import os
 import logging as log
 import logging.handlers
 from datetime import datetime
-
+##
 class cOSLogger:
     _mLog = None
     _mBaseDirectory = None

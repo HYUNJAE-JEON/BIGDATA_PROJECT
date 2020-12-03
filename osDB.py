@@ -58,7 +58,7 @@ def executeS(sql: str = None, args: dict = None) :
             cursor.execute(sql)
         else:
             cursor.execute(sql, args)
-
+##
         connector.commit()
         retVal = True
     except Exception as Ex:
